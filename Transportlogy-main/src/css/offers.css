@@ -1,0 +1,42 @@
+.navbar-item{
+    color: gray;
+}
+
+.navbar-item:hover{
+    color: rgb(0,0,0);
+}
+
+.active{
+    --tw-text-opacity: 1;
+    color: rgb(51 66 80 / var(--tw-text-opacity));
+    border-bottom: 3px solid rgb(51 66 80);
+}
+
+#background-gradient1{
+    background-image: radial-gradient(circle, #dbeafe, #f3f4f6, #f3f4f6);
+}
+
+.card{
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#card1{
+    background-image: linear-gradient(to bottom right, #FFFFFF, #6B4710);
+}
+
+#card2{
+    background-image: linear-gradient(to bottom right, #FFFFFF, #E7EAF0, #8E9CB8, #607AAA);
+}
+
+#card3{
+    background-image: linear-gradient(to bottom right, #FFFFFF, #C39620);
+}
+
+#card4{
+    background-image: linear-gradient(to bottom right, #FFFFFF, #C3D0E4, #CBB6BF, #D5ADCF);
+}

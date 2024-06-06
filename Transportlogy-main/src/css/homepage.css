@@ -1,0 +1,68 @@
+.navbar-item {
+  color: gray;
+}
+
+.navbar-item:hover {
+  color: rgb(0, 0, 0);
+}
+
+.active {
+  --tw-text-opacity: 1;
+  color: rgb(51 66 80 / var(--tw-text-opacity));
+  border-bottom: 3px solid rgb(51 66 80);
+}
+
+#background-gradient1 {
+  background-image: radial-gradient(circle, #dbeafe, #f3f4f6, #e5e7eb);
+}
+
+#background-gradient2 {
+  background-image: radial-gradient(
+    circle,
+    #e9e3d7,
+    #ebdfff,
+    #e9fcff,
+    #f3f4f6,
+    #f3f4f6,
+    #f3f4f6,
+    #e5e7eb
+  );
+}
+
+#banner-card {
+  background-image: linear-gradient(
+    to right,
+    #dfb1b1,
+    #c3d0e4,
+    #ffffff,
+    #cbb6bf,
+    #d5adcf
+  );
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#card1 {
+  background-image: linear-gradient(to bottom right, #ffffff, #6b4710);
+}
+
+#card2 {
+  background-image: linear-gradient(
+    to bottom right,
+    #ffffff,
+    #e7eaf0,
+    #8e9cb8,
+    #607aaa
+  );
+}
+
+#card3 {
+  background-image: linear-gradient(to bottom right, #ffffff, #c39620);
+}
